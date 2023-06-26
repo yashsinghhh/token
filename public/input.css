@@ -2,10 +2,14 @@
 @tailwind components;
 
 
-.btn{
-    @apply bg-blue-500 ;
-
+html {
+    scroll-behavior: smooth;
+    background-color: rgba(17,24,39,1);
+    
 }
-
+.btn{
+    background: rgb(161,164,162);
+    background: linear-gradient(180deg, rgba(161,164,162,1) 0%, rgba(161,60,76,1) 65%, rgba(17,24,39,1) 100%);
+    
  
 @tailwind utilities;
